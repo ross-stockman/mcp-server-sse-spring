@@ -1,6 +1,6 @@
 # mcp-server-sse-spring
 
-This project is a template SSE server using Spring Boot.
+This project is a template MCP server using Spring Boot.
 
 Run the project with Maven.
 
@@ -14,4 +14,4 @@ Start MCP Inspector.
 npx @modelcontextprotocol/inspector
 ```
 
-Connect to the SSE server using SSE transport type and the url `http://localhost:8080/sse`.
+Connect to the MCP server using SSE transport type and the url `http://localhost:8080/sse`.
