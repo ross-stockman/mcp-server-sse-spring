@@ -2,19 +2,20 @@ spring:
   application:
     name: mcp-server-sse-spring
 
-  api:
-    enabled: true
-    stdio: false
-    version: 1.0
-    name: mcp-server-sse-spring
-    sse-endpoint: /sse
-    sse-messages-endpoint: /sse/messages
-    type: sync
-    capabilities:
-      tool: true
-      completing: false
-      prompt: false
-      resource: false
+  ai:
+    mcp:
+      server:
+        version: 1.0
+        name: mcp-server-sse-spring
+        sse-endpoint: /sse
+        sse-message-endpoint: /sse/messages
+        type: sync
+        capabilities:
+          tool: true
+          completion: true
+          prompt: true
+          resource: true
+        keep-alive-interval: 30s
 
 logging:
   level:
