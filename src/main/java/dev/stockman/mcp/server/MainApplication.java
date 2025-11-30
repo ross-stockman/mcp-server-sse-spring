@@ -14,8 +14,8 @@ public class MainApplication {
     }
 
     @Bean
-    public ToolCallbackProvider tools(MathTools mathTools) {
-        return MethodToolCallbackProvider.builder().toolObjects(mathTools).build();
+    public ToolCallbackProvider tools(ServiceCatalogTools serviceCatalogTools) {
+        return MethodToolCallbackProvider.builder().toolObjects(serviceCatalogTools).build();
     }
 
 }

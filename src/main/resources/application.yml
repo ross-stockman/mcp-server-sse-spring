@@ -1,3 +1,7 @@
+server:
+  port: 8080
+  shutdown: immediate
+
 spring:
   application:
     name: mcp-server-sse-spring
